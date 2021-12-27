@@ -21,8 +21,8 @@ module.exports = {
   solidity: "0.8.4",
   networks: {
     rinkeby: {
-      url: process.env.URL,
-      accounts: [process.env.ACCOUNT],
+      url: process.env.URL, // create an account with alchemyapi.io, then create an app and get the view key url 
+      accounts: [process.env.ACCOUNT], // YOUR_PRIVATE_RINKEBY_ACCOUNT_KEY
     },
   },
 };
